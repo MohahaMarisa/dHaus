@@ -343,15 +343,29 @@ a {
   padding-top: 40px;
   padding-right: 25%;
   padding-left: 25%;
-  background-color: hsla(0, 0%, 100%, 0.26);
+  background-color: hsla(0, 0%, 100%, 0);
   font-family: Archivo, sans-serif;
   color: #000;
 }
 
 .text-block-7 {
   position: static;
+  margin: 40px 220px;
+  padding-bottom: 0px;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
   font-family: Inconsolata, monospace;
+  color: #baff4c;
   text-align: center;
+}
+
+.section-2 {
+  line-height: 0vh;
+}
+
+.section-3 {
+  height: 100px;
 }
 
 @media screen and (max-width: 991px) {
@@ -360,8 +374,8 @@ a {
   }
 
   .grid-2 {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 8%;
+    margin-left: 8%;
   }
 
   .heading {
@@ -407,6 +421,10 @@ a {
     -o-object-fit: cover;
     object-fit: cover;
   }
+
+  .text-block-7 {
+    margin: 20px 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -428,6 +446,10 @@ a {
 
   .lottie-animation {
     width: 200vw;
+  }
+
+  .text-block-7 {
+    margin: 3% 10%;
   }
 }
 
@@ -495,6 +517,14 @@ a {
 
   .div-block-3 {
     width: 100px;
+  }
+
+  .text-block-7 {
+    margin: 10px 5%;
+  }
+
+  .section-3 {
+    height: 120px;
   }
 }
 
